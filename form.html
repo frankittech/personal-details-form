@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Form Page</title></head> 
+<head><h1>FILL BELOW</h1></head>
+<body style="color:rgb(34, 5, 149)">  
+  <form action="form submission.php" method="post">
+    <fieldset>
+      <legend>Personal Information</legend>
+    <div>
+    Name: <input type="text" name="Full name" placeholder="Full name" ><br>
+    Your password: <input type="password" name="password" placeholder="Password"><br>
+    Email address: <input type="email" name="email" placeholder="email"><br>
+    Phone number: <input type="tel"  name="phone" placeholder="0733 450 678"><br>
+    Gender: <input type="radio" name="Gender" value="male"> Male
+            <input type="radio" name="Gender" value="female"> Female
+            <input type="radio" name="Gender" value="other"> Other<br>
+      Age: <input type="number" name="age" min="1" max="29" ><br>
+    </div>
+    </fieldset>
+    <fieldset>
+      <legend>Additional Information</legend>
+    <div>
+  
+      favorite color:
+      <input type="radio" name="color" value="red"> Red
+      <input type="radio" name="color" value="green"> Green
+      <input type="radio" name="color" value="blue"> Blue
+      <input type="radio" name="color" value="yellow"> Yellow
+      <input type="radio" name="color" value="black"> Black
+      <input type="radio" name="color" value="violet"> Violet
+    </div>
+    <div>
+      Select your country:<input name="countries" list="countries"  placeholder="Country"> 
+      <datalist id="countries">
+        <option value="USA">
+        <option value="Canada">
+        <option value="Kenya">
+        <option value="Nigeria">
+        <option value="Germany">
+        <option value="France">
+        <option value="Italy">
+        <option value="Spain">
+        <option value="Australia">
+        <option value="India">
+        <option value="China">
+        <option value="Japan">
+        <option value="Brazil">
+        <option value="Mexico">
+        <option value="Russia">
+      </datalist>
+    </div>
+    </fieldset>
+    <fieldset>
+      <legend>Leave a comment</legend>
+      Comments:<br>
+      <textarea name="comment"  ></textarea>
+    </fieldset>
+<div>
+  <input type="submit" value="Submit data">
+</div>
+<div>
+  <button type="reset" value="Clear">clear</button>
+</div>
+  </form>
+</body>
+<body>
+  <a href="https://google.com" style="color:red">CLICK HERE</a>
+  
+</body>
+</html>
